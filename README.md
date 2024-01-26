@@ -3,7 +3,7 @@ Just a little bit about me :)
 Check this out on **https://gitped.github.io**
 
 ```
-__ _     _      _       _ __              _   
+ __ _     _      _       _ __              _   
 / _` |   (_)    | |_    | '_ \   ___    __| |  
 \__, |   | |    |  _|   | .__/  / -_)  / _` |  
 |___/   _|_|_   _\__|   |_|__   \___|  \__,_|  
