@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+:root {
+  --main-blue: #3498db;
+  --main-background: #ecf0f1;
+  --secondary-background: #fff;
+  --text-color: #2c3e50;
+  --text-not: rgba(255, 0, 0, 0.7);
+  --icon-hover: #2980b9;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: var(--text-color);
+  background-color: var(--main-background);
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#title-box {
+  color: var(--main-blue);
+  font-size: 2.5em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#intro-box {
+  background-color: var(--secondary-background);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+#intro-box #main-quote {
+  text-align: center;
+  font-style: italic;
+}
+
+#intro-box p {
+  margin-bottom: 15px;
+}
+
+#intro-box #interests {
+  display: flex;
+}
+
+#intro-box #interests .interest {
+  flex-direction: row;
+  flex: 1;
+  box-sizing: border-box;
+}
+
+#intro-box #interests .interest h3 {
+  color: var(--main-blue);
+  text-align: center;
+}
+
+#intro-box #interests .interest ul {
+  padding-left: 20px;
+}
+
+#intro-box #interests .divider {
+  border: 1px solid var(--main-background);
+  margin: 10px; 
+}
+
+#intro-box #interests #not {
+  color: var(--text-not);
+}
+
+hr {
+  border: 1px solid var(--main-blue);
+  margin: 20px 0;
+}
+
+#icons-box {
+  text-align: center;
+}
+
+#icons-box a {
+  margin: 0 10px;
+  color: var(--main-blue);
+  text-decoration: none;
+  font-size: 3em;
+}
+
+#icons-box a:hover i {
+  animation: bounce 0.75s ease;
+  color: var(--icon-hover);
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
+}
